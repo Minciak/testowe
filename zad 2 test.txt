@@ -1,0 +1,29 @@
+Zdanie 2 - test
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    int suma=0;
+    float srednia;
+    int podzielna;
+    cout<<"podaj podzielna=";
+     cin>>podzielna;
+     int licznik=0;
+    for(int i=10;i<=99;i++)
+    {
+            if(i%podzielna==0){licznik++;}
+            suma=suma+i;
+            }
+            srednia=suma/90.0;
+            cout<<"suma="<<suma<<endl;
+            cout<<"srednia="<<srednia<<endl;
+            cout<<"ilosc liczb dwucyrowych podzielnych przez= ";
+            cout<<podzielna<<" to "<<licznik<<endl;
+    
+            
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
