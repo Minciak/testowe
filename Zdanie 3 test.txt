@@ -1,0 +1,17 @@
+ZDANIE 3 -TEST
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+
+    for(int i=19;i<=34;i++)
+    {
+    cout<<"I="<<i<<" I*I="<<i*i<<" I*I*I "<<i*i*i<<endl;
+}
+            
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
