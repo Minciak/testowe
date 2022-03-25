@@ -27,3 +27,46 @@ int main(int argc, char *argv[])
     system("PAUSE");
     return EXIT_SUCCESS;
 }
+<!DOCTYPE HTML>
+<html lang="pl">
+ <head>
+ <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+  <style type="text/css">
+  /**Frejtak Nikodem**/
+H1 { 
+ width: 400pt;
+ height: 2cm;
+ padding : 30px;
+ margin-left : 650px;
+ border : 7px outset;
+ background : rgb(173,255,47);
+ border-top-color: #008080;
+ border-bottom-color: #000080;
+  border-left-color: #000000;
+ border-right-color: #FF0000;
+ }
+ H2 { 
+ width: 200pt;
+ height: 3cm;
+ padding : 30px;
+ margin-left : 950px;
+ border : 7px inset #FF0000;
+ background : rgb(0,250,154);
+ }
+ H3 { 
+ width: 300pt;
+ height: 4cm;
+ padding : 20px;
+ margin-left : 500px;
+ border : 10px dashed #FF00FF;
+ background : rgb(0,100,0);
+ }
+ </style>
+</head>
+<body>	
+<h1>Frejtak</h1>
+<h2>Nikodem</h2>
+<h3> 6 , 1P </h3>
+<!--Frejtak Nikodem-->
+</body>
+</html>
